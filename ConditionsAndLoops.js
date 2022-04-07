@@ -108,24 +108,46 @@ console.log(studentClass);
 
 
 // write a for loop that will iterate backwards from 10 to -10
-
+for (let i = 10; i >= -10; i--){
+    console.log(i);
+}
 
 
 // write a do/while loop that prints 1 through 50
-
+/* let i = 1;
+do {
+    console.log(i);
+    i++;
+}   while (i <= 50);
+*/
 
 // edit the previous do/while loop so that it prints the remainder when the loop number is divided by 4
+let i = 1;
+do {
+    console.log(i%4);
+    i++;
+}   while (i <= 50);
 
 
 // Someone messed up the following for loop
 // fix the following infinite loop, uncomment to test
 /* 
-    for(let i = 11; i > 10; i++){
+    for(let i = 1; i < 10; i++){
         console.log(i);
     } 
 */
 
+for(let i = 1; i < 10; i++){
+    console.log(i);
+} 
 
+for(let i = 11; i < 100; i++){
+    console.log(i);
+} 
+
+for(let i = 110; i > 10; i--){
+    console.log(i);
+} 
 
 
 
